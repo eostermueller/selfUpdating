@@ -19,7 +19,7 @@ Here is the output that you see in the browser:
 New count is [24]
 ```
 
-But if you refresh the original page, you're stuck with a counter value of 23....you don't get to see the incremented value.
+But if you refresh the original page (I've tried chrome and safari), you're stuck with a counter value of 23....you don't get to see the incremented value.
 
 I've found two workarounds to display the incremented counter value, neither of which are acceptable.
 The first is to open a separate browser tab or window.
