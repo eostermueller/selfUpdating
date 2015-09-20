@@ -28,7 +28,7 @@ The second is to comment out the following line in HomePage.java:
 label.add(new AjaxSelfUpdatingTimerBehavior(Duration.seconds(2)));
 ```
 
-Any suggestions for how to get around this?
+Any suggestions for how to get the browser refresh to work with a AjaxSelfUpdatingTimerBehavior?
 Thanks,
 --Erik Ostermueller
 
