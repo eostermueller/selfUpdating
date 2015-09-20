@@ -2,7 +2,7 @@
 This is an Apache Wicket 7.0.0 quickstart where AjaxSelfUpdatingTimerBehavior breaks browser refresh.
 
 I added AjaxSelfUpdatingTimerBehavior to this wicket quickstart and it works just fine.
-Only a few pieces of data will get auto-updated.  For the rest of the data, user needs to do a browser fresh 
+However, only a few pieces of data on this page will get auto-updated.  For the rest of the data, the user needs to do a browser fresh 
 but the AjaxSelfUpdatingTimerBehavior keeps that refresh from working like I need it to.
 
 The home page url shows a counter (that starts and 23) and a java timestamp that refreshes itself every 2 seconds using AjaxSelfUpdatingTimerBehavior:
