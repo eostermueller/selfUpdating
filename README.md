@@ -1,5 +1,5 @@
 # selfUpdating
-This is an Apache Wicket quickstart where AjaxSelfUpdatingTimerBehavior breaks browser refresh.
+This is an Apache Wicket 7.0.0 quickstart where AjaxSelfUpdatingTimerBehavior breaks browser refresh.
 
 I added AjaxSelfUpdatingTimerBehavior to this wicket quickstart and it works just fine.
 However, browser refresh no longer works like I need it to.
@@ -13,7 +13,7 @@ The following different URL invokes a servlet that increments the counter stored
 ```
 http://localhost:8080/selfUpdating/increment
 ```
-Here is the output:
+Here is the output that you see in the browser:
 ```
 New count is [24]
 ```
