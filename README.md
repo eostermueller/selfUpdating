@@ -14,15 +14,16 @@ add( new Label("myCounter",
 ```
 ...where counterModel is defined like this:
 ```
-AbstractReadOnlyModel<Integer> counterModel 					
-	= new AbstractReadOnlyModel<Integer>() {					
+AbstractReadOnlyModel<Integer> counterModel = new AbstractReadOnlyModel<Integer>() {
 	@Override 												
 	public Integer getObject() { 													Object o = getApplication(); 						
 		if (o instanceof WicketApplication) { 				
 			WicketApplication w = (WicketApplication)o; 	
 			return w.getCounter().get(); 					
 		} 															return null; 										
-	} 														};															```
+	} 														};
+```
+
 For details, see the source for the ctor for  [https://github.com/eostermueller/selfUpdating/blob/master/src/main/java/com/github/eostermueller/HomePage.java](HomePage.java).
 
 ## The Problem
