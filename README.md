@@ -1,6 +1,6 @@
 # selfUpdating
 This Apache Wicket 7.0.0 quickstart shows how to fix the problem the where AjaxSelfUpdatingTimerBehavior breaks browser refresh.
-Originally, the Label (org.apache.wicket.markup.html.basic.Label) that wasn't updating had a value for its model, like this:
+Originally, the [Wicket Label](https://ci.apache.org/projects/wicket/apidocs/7.x/org/apache/wicket/markup/html/basic/Label.html) that wasn't updating had a value for its model, like this:
 ```
 add( new Label("myCounter", 
           w.getCounter().get()      // THE PROBLEM
