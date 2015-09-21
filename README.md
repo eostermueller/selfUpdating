@@ -24,7 +24,7 @@ AbstractReadOnlyModel<Integer> counterModel = new AbstractReadOnlyModel<Integer>
 	} 														};
 ```
 
-For details, see the source for the ctor for  [https://github.com/eostermueller/selfUpdating/blob/master/src/main/java/com/github/eostermueller/HomePage.java](HomePage.java).
+For details, see [the source for HomePage.java](https://github.com/eostermueller/selfUpdating/blob/master/src/main/java/com/github/eostermueller/HomePage.java).
 
 ## The Problem
 
